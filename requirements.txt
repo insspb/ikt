@@ -1,0 +1,2 @@
+# Pip dependencies verification
+pip-check==2.6
