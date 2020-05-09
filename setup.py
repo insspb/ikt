@@ -1,6 +1,5 @@
 """Image Keyword Tool setuptools configuration."""
-from setuptools import setup
-
+from setuptools import find_packages, setup
 
 with open('README.md', 'r', encoding='utf-8') as readme_file:
     readme = readme_file.read()
@@ -17,6 +16,7 @@ setup(
     zip_safe=False,
     install_requires=["click>=7.1.0"],
     python_requires='>=3.7',
+    packages=find_packages(),
     entry_points={'console_scripts': ['ikt = ikt.cli:main']},
     version='0.0.1',
     classifiers=[
