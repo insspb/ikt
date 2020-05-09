@@ -1,2 +1,4 @@
 # Pip dependencies verification
 pip-check==2.6
+
+click>=7.1.0

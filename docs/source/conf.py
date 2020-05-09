@@ -1,3 +1,4 @@
+"""Image Keyword Tool documentation build configuration."""
 from recommonmark.transform import AutoStructify
 # Configuration file for the Sphinx documentation builder.
 #
@@ -68,6 +69,7 @@ htmlhelp_basename = 'sustainergydoc'
 
 
 def setup(app):
+    """Configure additional Sphinx options."""
     app.add_config_value('recommonmark_config', {
         'auto_toc_tree_section': 'Contents',
         'enable_math': False,

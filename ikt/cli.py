@@ -1,12 +1,10 @@
-"""
-This file responsible for all console interaction functions and configuration.
-"""
+"""This file responsible for all console interface."""
 import click
 
 
 @click.command()
 def main():
-    """Simple function for pip registration."""
+    """Echo only. Project setup verification."""
     click.echo("Command line interface placeholder")
 
 
