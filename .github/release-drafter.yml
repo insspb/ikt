@@ -1,0 +1,34 @@
+categories:
+  - title: 'Breaking Changes'
+    labels:
+      - 'breaking-change'
+  - title: 'New features or options that was not exist before'
+    labels:
+      - 'major'
+  - title: 'Enhancement update for old features'
+    labels:
+      - 'enhancement'
+  - title: 'CI/CD and QA changes'
+    labels:
+      - 'CI/CD'
+      - 'tests'
+      - 'code style'
+  - title: 'Documentation updates'
+    labels:
+      - 'documentation'
+  - title: 'Bugfixes'
+    labels:
+      - 'bug'
+  - title: 'Deprecations'
+    labels:
+      - 'deprecated'
+exclude-labels:
+  - 'skip-changelog'
+template: |
+  ## Changes
+
+  $CHANGES
+
+  ## This release is made by wonderfull contributors:
+
+  $CONTRIBUTORS
