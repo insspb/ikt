@@ -41,7 +41,7 @@ setup(
         "Programming Language :: Python :: Implementation :: CPython",
         "Topic :: Scientific/Engineering :: Image Recognition",
     ],
-    keywords=(
+    keywords=[
         'image-recognition',
         'image-classification',
         'image-analysis',
@@ -53,5 +53,5 @@ setup(
         'recognition',
         'classification',
         'tool',
-    ),
+    ],
 )
