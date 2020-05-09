@@ -1,6 +1,9 @@
 name: Run checks
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches: [master]
 
 jobs:
   tox:
@@ -9,15 +12,6 @@ jobs:
       matrix:
         platform: ["ubuntu-latest", "macos-latest", "windows-latest"]
         python: ["3.7", "3.8"]
-        noxsession: ["tests"]
-
-        include:
-          - noxsession: "linting"
-            python: "3.8"
-            platform: "ubuntu-latest"
-          - noxsession: "coverage"
-            python: "3.8"
-            platform: "ubuntu-latest"
 
     runs-on: ${{ matrix.platform }}
 
@@ -31,6 +25,5 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install nox
-    - name: Run tox
-      run: |
-        nox -s ${{ matrix.noxsession }}
+    - name: Run nox
+      run: nox -s tests-${{ matrix.python }}
