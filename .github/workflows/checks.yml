@@ -6,7 +6,7 @@ on:
     branches: [master]
 
 jobs:
-  tox:
+  nox:
     strategy:
       fail-fast: false
       matrix:

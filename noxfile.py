@@ -14,7 +14,6 @@ def tests(session):
     session.install("-r", "requirements.txt")
     session.install("-e", ".")
     session.run("pytest")
-    session.notify("coverage")
 
 
 @nox.session(python="3.8")
@@ -41,11 +40,3 @@ def docs(session):
         sphinx_args.insert(0, "--open-browser")
 
     session.run(sphinx_cmd, *sphinx_args)
-
-
-@nox.session(python="3.8")
-def coverage(session):
-    """Coverage analysis."""
-    session.install("coverage")
-    session.run("coverage", "report", "--fail-under=100", "--show-missing")
-    session.run("coverage", "erase")
