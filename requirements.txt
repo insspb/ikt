@@ -2,4 +2,10 @@
 pip-check==2.6
 
 click>=7.1.0
+
+# Linting
 pre-commit>=2.3.0
+
+# Testing
+pytest>=5.4.0
+pytest-cov>=2.8.0
