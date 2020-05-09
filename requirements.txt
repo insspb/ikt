@@ -1,5 +1,18 @@
+# Dependencies in this file required only for testing and development.
+# For regular use just use pip install.
+
 # Pip dependencies verification
 pip-check==2.6
 
 click>=7.1.0
+
+# Linting
 pre-commit>=2.3.0
+black>=19.10b0
+flake8>=3.7.9
+flake8-absolute-import>=1.0
+flake8-docstrings>=1.5.0
+
+# Testing
+pytest>=5.4.0
+pytest-cov>=2.8.0

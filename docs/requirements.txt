@@ -2,9 +2,10 @@
 pip-check==2.6
 
 # Documentation dependencies
-Sphinx==3.0.3
+Sphinx>=3.0.0
 recommonmark==0.6.0
 sphinx-rtd-theme==0.4.3
 sphinxcontrib-openapi==0.6.0
 Markdown==3.2.1
 m2r==0.2.1
+sphinx-autobuild>=0.7.0
