@@ -36,6 +36,16 @@ pip install ikt
 ikt --help
 ```
 
+## Documentation
+
+Check out the [documentation](https://ikt.readthedocs.io/en/latest/) for more
+info.
+
+## Contributions
+
+Contributions are very welcome. Please check
+[contributors Guide](CONTRIBUTING.md).
+
 ## Code of Conduct
 
 Everyone interacting in the Image Keywords tools project's codebases, issue
