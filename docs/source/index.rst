@@ -10,4 +10,5 @@ learning libraries for image tags generation.
    README
    CONTRIBUTING
    CODE_OF_CONDUCT
+   changelog
    contributors
