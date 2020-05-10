@@ -13,7 +13,10 @@ def tests(session):
     """Run test suite with pytest."""
     session.install("-r", "requirements.txt")
     session.install("-e", ".")
-    session.run("pytest")
+    if session.python == "3.8":
+        session.run("pytest", "--cov-report=html")
+    else:
+        session.run("pytest")
 
 
 @nox.session(python="3.8")
@@ -38,5 +41,7 @@ def docs(session):
     else:
         sphinx_cmd = "sphinx-autobuild"
         sphinx_args.insert(0, "--open-browser")
+        sphinx_args.insert(0, "..")
+        sphinx_args.insert(0, "-z")
 
     session.run(sphinx_cmd, *sphinx_args)
