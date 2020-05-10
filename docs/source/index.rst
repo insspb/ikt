@@ -9,3 +9,4 @@ image tags generation.
 
    README
    CODE_OF_CONDUCT
+   contributors
