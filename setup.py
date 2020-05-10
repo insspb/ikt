@@ -18,9 +18,9 @@ setup(
     python_requires='>=3.7',
     packages=find_packages(),
     entry_points={'console_scripts': ['ikt = ikt.cli:main']},
-    version='0.0.1',
+    version='0.1.0',
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 1 - Planning",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "Intended Audience :: End Users/Desktop",
