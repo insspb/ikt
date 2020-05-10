@@ -1,34 +1,30 @@
 categories:
   - title: 'Breaking Changes'
     labels:
-      - 'breaking-change'
-  - title: 'New features or options that was not exist before'
+      - 'log:breaking-change'
+  - title: 'Added'
     labels:
-      - 'major'
-  - title: 'Enhancement update for old features'
+      - 'log:added'
+  - title: 'Changed'
     labels:
-      - 'enhancement'
-  - title: 'CI/CD and QA changes'
+      - 'log:changed'
+  - title: 'Fixed'
     labels:
-      - 'CI/CD'
-      - 'tests'
-      - 'code style'
-  - title: 'Documentation updates'
+      - 'log:fixed'
+  - title: 'Deprecated'
     labels:
-      - 'documentation'
-  - title: 'Bugfixes'
+      - 'log:deprecated'
+  - title: 'Removed'
     labels:
-      - 'bug'
-  - title: 'Deprecations'
-    labels:
-      - 'deprecated'
+      - 'log:removed'
 exclude-labels:
-  - 'skip-changelog'
+  - 'log:skip-changelog'
+sort-by: 'title'
 template: |
   ## Changes
 
   $CHANGES
 
-  ## This release is made by wonderfull contributors:
+  ## This release is made by wonderful contributors:
 
   $CONTRIBUTORS
