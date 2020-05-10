@@ -1,12 +1,13 @@
-Image keyword tool
+Image Keyword Tool
 ==================
 
-A command-line utility that simplify usage of deep learning libraries for
-image tags generation.
+Image Keyword Tool (IKT) is command-line utility that simplify usage of deep
+learning libraries for image tags generation.
 
 .. toctree::
    :maxdepth: 2
 
    README
+   CONTRIBUTING
    CODE_OF_CONDUCT
    contributors

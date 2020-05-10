@@ -7,8 +7,8 @@
 [![Code Qaulity](https://img.shields.io/scrutinizer/g/insspb/ikt.svg)](https://scrutinizer-ci.com/g/insspb/ikt/?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A command-line utility that simplify usage of deep learning computer
-vision libraries for image tags generation.
+Image Keyword Tool (IKT) is command-line utility that simplify usage of deep
+learning libraries for image tags generation.
 
 This tool is in active development. Most futures only in planned state now.
 
@@ -47,4 +47,4 @@ trackers, chat rooms, and mailing lists is expected to follow the
 MIT License
 
 See [LICENSE](https://github.com/insspb/ikt/blob/master/LICENSE) to see the full
-text. 
+text.
