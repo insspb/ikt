@@ -35,6 +35,6 @@ jobs:
       uses: paambaati/codeclimate-action@v2.6.0
       with:
         coverageCommand: echo "Ignore rerun"
-        coverageLocations: ${{github.workspace}}/.coverage
+        coverageLocations: ${{github.workspace}}/.coverage:coverage.py
       env:
         CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
