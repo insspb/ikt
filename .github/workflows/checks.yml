@@ -34,6 +34,7 @@ jobs:
     - name: Send coverage report to codeclimate
       uses: paambaati/codeclimate-action@v2.6.0
       with:
+        coverageCommand: echo "Ignore rerun"
         coverageLocations: ${{github.workspace}}/.coverage
       env:
         CC_TEST_REPORTER_ID: ${{secrets.CC_TEST_REPORTER_ID}}
