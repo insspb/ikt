@@ -13,10 +13,7 @@ def tests(session):
     """Run test suite with pytest."""
     session.install("-r", "requirements.txt")
     session.install("-e", ".")
-    if session.python == "3.8":
-        session.run("pytest", "--cov-report=html")
-    else:
-        session.run("pytest")
+    session.run("pytest", "--cov-report=html", "--cov-report=xml")
 
 
 @nox.session(python="3.8")
