@@ -4,6 +4,9 @@
 [![python](https://img.shields.io/pypi/pyversions/ikt.svg)](https://pypi.python.org/pypi/ikt)
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/insspb/ikt/Run%20checks/master)](https://github.com/insspb/ikt)
 [![docs](https://readthedocs.org/projects/ikt/badge/?version=latest)](https://ikt.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/insspb/ikt/branch/master/graph/badge.svg)](https://codecov.io/gh/insspb/ikt)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/792c94611eaba16a8dc5/test_coverage)](https://codeclimate.com/github/insspb/ikt/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/792c94611eaba16a8dc5/maintainability)](https://codeclimate.com/github/insspb/ikt/maintainability)
 [![Code Qaulity](https://img.shields.io/scrutinizer/g/insspb/ikt.svg)](https://scrutinizer-ci.com/g/insspb/ikt/?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 

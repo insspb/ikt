@@ -16,3 +16,6 @@ flake8-docstrings>=1.5.0
 # Testing
 pytest>=5.4.0
 pytest-cov>=2.8.0
+
+# Development
+nox>=2019.11.9

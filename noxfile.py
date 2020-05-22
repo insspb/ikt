@@ -8,22 +8,24 @@ import nox
 nox.options.keywords = "not docs"
 
 
+def base_install(session):
+    """Creates basic environment setup for tests and linting."""
+    session.install("-r", "requirements.txt")
+    session.install("-e", ".")
+    return session
+
+
 @nox.session(python=["3.7", "3.8"])
 def tests(session):
     """Run test suite with pytest."""
-    session.install("-r", "requirements.txt")
-    session.install("-e", ".")
-    if session.python == "3.8":
-        session.run("pytest", "--cov-report=html")
-    else:
-        session.run("pytest")
+    session = base_install(session)
+    session.run("pytest", "--cov-report=html", "--cov-report=xml")
 
 
 @nox.session(python="3.8")
 def linting(session):
     """Launch linting locally."""
-    session.install("-r", "requirements.txt")
-    session.install("-e", ".")
+    session = base_install(session)
     session.run("pre-commit", "run", "-a")
 
 
