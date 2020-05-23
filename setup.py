@@ -17,7 +17,7 @@ setup(
     install_requires=["click>=7.1.0"],
     python_requires='>=3.7',
     packages=find_packages(),
-    entry_points={'console_scripts': ['ikt = ikt.cli:main']},
+    entry_points={'console_scripts': ['ikt = ikt.cli:main_cli']},
     version='0.2.0',
     classifiers=[
         "Development Status :: 1 - Planning",
