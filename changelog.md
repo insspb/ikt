@@ -8,6 +8,29 @@ and this project adheres to
 
 Fresh changes should be at the beginning
 
+## 0.2.0 Quality Time (23-05-2020)
+
+This release is focused on further project CI/CD configuration. All related
+issues and pull requests can be found in the second
+[closed project](https://github.com/insspb/ikt/projects/2).
+
+### Added
+
+* Documentation template for issues (#30) [@insspb](https://github.com/insspb)
+* Codecov and codeclimate report upload added (#29)
+  [@insspb](https://github.com/insspb)
+* Added: Labeler workflow and labels configuration (#32)
+  [@insspb](https://github.com/insspb)
+
+### Changed
+
+* Release drafter configuration now uses dedicated 'log:' labels. (#28)
+  [@insspb](https://github.com/insspb)
+
+### Removed
+
+* Removed: scrutinizer support #33 (#34) [@insspb](https://github.com/insspb)
+
 ## 0.1.0 Join the world (10-05-2020)
 
 This release is focused on project initial CI/CD configuration. All related
