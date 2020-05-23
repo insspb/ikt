@@ -23,11 +23,11 @@ Please tell us how to reproduce this issue. Try to make step by step guide.
 
 If applicable, add console log and/or screenshots to help explain your problem.
 
-## Desktop (please complete the following information):
+## Desktop (please complete the following information)
 
-* OS: <Please fill affected OS system information>
-* Tool version: <Please fill IKT version information>
-* Python version: <Please fill used python version information>
+* OS: [Please fill affected OS system information]
+* Tool version: [Please fill IKT version information]
+* Python version: [Please fill used python version information]
 
 ## Additional context
 

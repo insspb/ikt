@@ -23,8 +23,8 @@ If you are reporting a bug, please include:
 * Any details about your local setup that might be helpful in troubleshooting.
 * If you can, provide detailed steps to reproduce the bug.
 * If you don't have steps to reproduce the bug, just note your observations in
-as much detail as you can. Questions to start a discussion about the issue are
-welcome.
+  as much detail as you can. Questions to start a discussion about the issue are
+  welcome.
 
 ### Fix Bugs
 
@@ -32,9 +32,9 @@ Bugs are usually marked with 'bug' label.
 
 * Look through the GitHub issues for bugs and issues.
 * Any bug or problem issue without WIP label or related pull requests is open
-to whoever wants to implement it.
+  to whoever wants to implement it.
 * If several fix approaches possible feel free to discuss possible fixes
-before actual codding.
+  before actual codding.
 
 ### Implement Features
 
@@ -42,12 +42,12 @@ Feature requests are usually marked with "enhancement" or "please-help" labels.
 
 * Look through the GitHub issues for feature requests.
 * Any feature request without WIP label or related pull requests is open to
-whoever wants to implement it.
+  whoever wants to implement it.
 * Please do not combine multiple feature enhancements into a single pull
-request.
+  request.
 * Feel free to create alternative features implementation if issue exist, but
-related pull request not yet merged. Please discuss in original pull request
-first.
+  related pull request not yet merged. Please discuss in original pull request
+  first.
 
 ### Write Documentation
 
@@ -76,7 +76,7 @@ If you are proposing a feature:
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible, to make it easier to implement.
 * Remember that this is a volunteer-driven project, and that contributions are
-welcome :)
+  welcome :)
 
 ## Setting Up the Code for Local Development
 
@@ -90,7 +90,7 @@ git clone git@github.com:your_name_here/ikt.git
 ```
 
 * Install your local copy into a virtualenv. Assuming you have
-venv installed, this is how you set up your fork for local development:
+  venv installed, this is how you set up your fork for local development:
 
 ```bash
 pip install -e .
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 ```
 
 * Configure pre-commit hooks automation for future git commits. More info at
-[pre-commit documentation](https://pre-commit.com/)
+  [pre-commit documentation](https://pre-commit.com/)
 
 ```bash
 pre-commit install
@@ -118,7 +118,7 @@ git checkout -b name-of-your-bugfix-or-feature
 Now you can make your changes locally.
 
 * When you're done making changes, check that your changes pass the tests
-and lint check:
+  and lint check:
 
 ```bash
 nox
@@ -136,7 +136,7 @@ nox -s linting
 ```
 
 * Ensure that your feature or commit is fully covered by tests. Check report
-after regular nox run.
+  after regular nox run.
 
 You report will be placed to `htmlcov` directory. Please do not include this
 directory to your commits. By default this directory in our `.gitignore` file.
@@ -158,12 +158,12 @@ git push origin name-of-your-bugfix-or-feature
 Before you submit a pull request, check that it meets these guidelines:
 
 1. The pull request should include tests.
-1. If the pull request adds functionality, the docs should be updated.
-Put your new functionality into a function with a docstring, and add the feature
-to the list in README.md.
+1. If the pull request adds functionality, the docs should be updated. Put your
+   new functionality into a function with a docstring, and add the feature to
+   the list in README.md.
 1. The pull request must pass all CI/CD jobs before being ready for review.
 1. If one CI/CD job is failing for unrelated reasons you may want to create
-another PR to fix that first.
+   another PR to fix that first.
 
 ### Coding Standards
 
@@ -220,9 +220,9 @@ Contributors may be given core commit privileges.
 Preference will be given to those with:
 
 1. Past contributions to IKT and other open-source projects. Contributions to
-IKT include both code (both accepted and pending) and friendly participation
-in the issue tracker. Quantity and quality are considered.
+   IKT include both code (both accepted and pending) and friendly participation
+   in the issue tracker. Quantity and quality are considered.
 1. A coding style that the other core committer find simple, minimal, and
-clean.
+   clean.
 1. Access to resources for cross-platform development and testing.
 1. Time to devote to the project regularly.
