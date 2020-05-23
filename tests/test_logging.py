@@ -14,6 +14,7 @@ def test_cli_logging_levels_switching(arg_key, log_level, expected_level):
     """Test logging level switching from cli."""
     runner = CliRunner()
     result = runner.invoke(cli.main_cli, args=[arg_key, log_level])
+
     assert result.exit_code == 0
     assert result.output == f"Logging level: {expected_level}\n"
     assert logger.level == expected_level
