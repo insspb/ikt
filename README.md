@@ -7,7 +7,6 @@
 [![codecov](https://codecov.io/gh/insspb/ikt/branch/master/graph/badge.svg)](https://codecov.io/gh/insspb/ikt)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/792c94611eaba16a8dc5/test_coverage)](https://codeclimate.com/github/insspb/ikt/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/792c94611eaba16a8dc5/maintainability)](https://codeclimate.com/github/insspb/ikt/maintainability)
-[![Code Qaulity](https://img.shields.io/scrutinizer/g/insspb/ikt.svg)](https://scrutinizer-ci.com/g/insspb/ikt/?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Image Keyword Tool (IKT) is command-line utility that simplify usage of deep
