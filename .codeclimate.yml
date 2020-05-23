@@ -1,0 +1,7 @@
+plugins:
+  markdownlint:
+    enabled: true
+    exclude_patterns:
+      - ".github/"
+  editorconfig:
+    enabled: true
