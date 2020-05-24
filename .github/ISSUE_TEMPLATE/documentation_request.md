@@ -2,7 +2,7 @@
 name: "Documentation request"
 about: "If you miss documentation for some feature or found a documentation bug, please fill this."
 title: "[Documentation] Please describe documentation topic shortly"
-labels: documentation
+labels: "topic: documentation"
 assignees: ''
 
 ---
