@@ -1,3 +1,5 @@
-# Changes description
+# Pull request
 
-Fixes #[Please fill issue number, this PR related to. Or create issue first.]
+Pull request description.
+
+Fixes # .
